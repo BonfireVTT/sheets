@@ -1,7 +1,7 @@
 {
-  "name": "dnd5-sheet",
+  "name": "dnd5",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "module": "./dist/index.js",
   "scripts": {
