@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    // update aliases in vite.config.ts as well
+    "paths": {
+      "@components/*": ["components/*"],
+      "@data/*": ["data/*"],
+      "@shared/*": ["shared/*"],
+    },
+    "types": ["node"]
+  },
+  "include": ["src", "src/globals.d.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

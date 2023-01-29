@@ -1,0 +1,65 @@
+:root {
+
+  /* Colors */
+  --accent-dark: #AA8434;
+  --accent-light: #F4d083;
+  --accent-transparent: rgba(249, 198, 91, 0.25);
+  --accent: #F9C65B;
+  
+  --dark: #101013;
+  --dark-transparent: rgba(0, 0, 0, 0.2);
+
+  --primary-dark: #1F1F26;
+  --primary-light: #3B3B48;
+  --primary: #272730;
+
+  --grey: #d5d5d5;
+
+  --error: #c64747;
+
+  --danger: #ff5656;
+  --positive: #54b94b;
+
+  /* Text */
+  --font-size-sm: 0.8rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.2rem;
+  --font-size-xl: 1.4rem;
+
+  --font-weight-thin: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 500;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+kbd {
+  background: var(--primary-light);
+  border-radius: 0.1em; 
+  color: white;
+  padding: 0.1em 0.2em;
+}
+
+.lo-x-sm > * + * {
+  margin-left: 0.25em;
+}
+
+.lo-x-md > * + * {
+  margin-left: 0.5em;
+}
+
+.lo-y-sm > * + * {
+  margin-top: 0.25em;
+}
+
+.lo-y-md > * + * {
+  margin-top: 0.5em;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
